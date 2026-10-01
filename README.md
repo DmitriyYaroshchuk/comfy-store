@@ -14,8 +14,9 @@ Users can browse and filter products, add them to a cart, register or log in (in
 ![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
 
-<!-- Add a screenshot: save it as docs/screenshot.png and uncomment the line below -->
-<!-- ![Comfy Store screenshot](docs/screenshot.png) -->
+![Comfy Store home page](docs/screenshot-home.png)
+
+![Comfy Store products page](docs/screenshot-products.png)
 
 ## Features
 
