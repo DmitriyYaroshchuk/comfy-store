@@ -2,6 +2,7 @@ import {Outlet, useNavigation} from "react-router-dom";
 import Header from "@/components/Header.tsx";
 import Navbar from "@/components/Navbar.tsx";
 import Loading from "@/components/Loading.tsx";
+import Footer from "@/components/Footer.tsx";
 
 function HomeLayout() {
     const navigation = useNavigation();
@@ -16,9 +17,7 @@ function HomeLayout() {
                 }
 
             </div>
-            <footer>
-                Footer
-            </footer>
+            <Footer/>
         </>
     )
 }
