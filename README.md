@@ -4,6 +4,8 @@ An e-commerce furniture store built with **React 19**, **TypeScript**, **Redux T
 
 Users can browse and filter products, add them to a cart, register or log in (including as a guest), place orders and view their order history. Data comes from a public Strapi API.
 
+**Live demo:** https://dmitriyyaroshchuk.github.io/comfy-store/
+
 > Built while completing John Smilga's React & TypeScript course on Udemy.
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white)
@@ -125,6 +127,10 @@ src/
 | `/login`, `/register` | Authentication | Public |
 | `/checkout` | Checkout | Logged-in users |
 | `/orders` | Order history | Logged-in users |
+
+## Deployment
+
+The app is deployed to GitHub Pages by the [Deploy to GitHub Pages](.github/workflows/deploy.yml) workflow on every push to `main`. It lints, builds with `BASE_PATH=/comfy-store/` and copies `index.html` to `404.html` so client-side routes work on page refresh.
 
 ## Acknowledgements
 

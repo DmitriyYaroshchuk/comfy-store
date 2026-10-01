@@ -87,7 +87,7 @@ const router = createBrowserRouter([
         errorElement: <Error/>,
         action: registerUser
     }
-]);
+], { basename: import.meta.env.BASE_URL });
 function App() {
 
     return (
